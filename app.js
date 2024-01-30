@@ -1,6 +1,11 @@
-const _ = require("lodash");
+const number = 30;
 
-const items = [(1)[(2, 3, 4)]];
-const newItems = _.flattenDeep(items);
+if (number < 19) {
+  console.log(`Small number: ${number}`);
+} else if (number > 20) {
+  console.log(`Large number: ${number}`);
+} else {
+  console.log(`The number is ${number}`);
+}
 
-console.log(newItems);
+console.log("Hello Ken the Billionaire");
