@@ -1,4 +1,4 @@
-const number = 30;
+const number = 3;
 
 if (number < 19) {
   console.log(`Small number: ${number}`);
